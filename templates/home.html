@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Translator</title>
+</head>
+<body>
+<nav>
+    <h1>Translate</h1>
+</nav>
+
+<section>
+    <form class="form" action="/" method="post">
+        <p class="form_input">
+            <label for="text" class="form_label">Add your text here:</label>
+            <textarea name="content" id="text" class="form_textarea"></textarea>
+        </p>
+
+        <button type="submit" class="form_submit">Translate</button>
+    </form>
+</section>
+
+<section>
+    <article>
+        <p class="entry_content">{{ output }}</p>
+    </article>
+</section>
+</body>
+</html>
